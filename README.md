@@ -18,7 +18,7 @@ projeto Figma.
 Também foi solicitado que a página fosse responsiva para
 dispositivos com diferentes tamanhos de tela.
 
-segue o link da conclusão do projeto no GitHub Pages:
+Link do [curriculum](https://fejm64.github.io/curriculum/) desenvolvido, hospedado no GitHub Pages.
 
-https://fejm64.github.io/curriculum/
+
 
