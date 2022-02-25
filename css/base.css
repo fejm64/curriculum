@@ -18,3 +18,11 @@ p {
     letter-spacing: 0em; 
     
 }
+
+@media (max-width: 580px) {
+  .cv {
+    width: auto;         
+    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+}

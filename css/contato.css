@@ -1,0 +1,143 @@
+.cv-contato
+ {    
+    width: 40%;    
+    height: 1054px;
+    background: #3C3C3C;
+}
+
+img {
+    width: 136px;
+    height: 136px;    
+    margin-top: 68px;
+    margin-left: 68px;
+    margin-bottom: 64px;     
+}
+
+.cv-contato
+  h2 {       
+    font-family: 'Montserrat', serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0.06em;    
+    color: #FFFFFF;
+    margin-left:68px;    
+    width: 204px;
+    height: 68px;
+    padding-top: 14.5px;     
+}
+
+.cv-contato
+  h3 {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: #6CD0DB;
+    margin-left:68px;
+    margin-bottom: 10px;
+    width: 68px;
+    height: 20px;        
+    text-transform: uppercase;
+}
+
+.cv-contato
+ p { 
+    color: #D0D0D0;    
+}
+
+.cv-contato
+  > h3:not(h3:first-of-type) {
+    margin-top: 25px;
+}
+
+.linha {
+    margin-top: 50px;
+    margin-bottom: 44px;    
+    height: 3px;
+    background: #6CD0DB;
+}
+
+@media (max-width: 820px) and (min-width: 580px) {
+    :root {
+        --responsivo: 34px;
+    }
+
+    .cv-contato {
+        height: 1100px;
+    }
+
+    .cv-contato
+     img {
+        margin-left: var(--responsivo);        
+        margin-top: var(--responsivo);
+        margin-bottom: var(--responsivo);
+        
+    }
+
+    .cv-contato
+     h2 {        
+        margin-left: var(--responsivo);
+    }
+
+    .cv-contato
+     h3 {
+        margin-left: var(--responsivo);
+    }
+
+    .cv-contato
+     p {
+        margin-left: var(--responsivo);
+    } 
+}
+
+@media (max-width: 580px) {
+    :root {
+        --responsivo: 20px;
+    }  
+
+    .cv {
+        width: auto;         
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+
+    .cv-contato
+     {
+        width: auto;
+        height: auto;
+        padding-bottom: var(--responsivo);
+    }
+
+    .cv-contato
+     img {
+        margin-left: var(--responsivo);
+        margin-top: var(--responsivo);
+        margin-bottom: var(--responsivo);
+    }
+
+    .cv-contato
+     h2 {
+        font-size: 29px;
+        margin-left: var(--responsivo);
+    }
+
+    .cv-contato
+     h3 {
+        margin-left: var(--responsivo);
+    }
+
+    .cv-contato
+     p {
+        margin-left: var(--responsivo);
+    }
+
+    .linha {
+        margin-top: var(--responsivo);
+        margin-bottom: var(--responsivo);            
+    }
+}
+
