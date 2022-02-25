@@ -4,23 +4,17 @@
     background: #FFFFFF;
 }
 
-.cv-dados
- h1 {
-    font-family: Montserrat;
-    font-size: 56px;
-    font-style: normal;
+.cv-dados h1 {    
+    font-size: 56px;        
     font-weight: 700;
     line-height: 68px;
-    letter-spacing: 0em;
-    text-align: left;
+    letter-spacing: 0em;    
     padding: 16px 16px 16px 0px;
-    margin-top: 68px;
-    margin-left: 68px;     
+    margin-top: 68px;        
     color: #6CD0DB;
 }
 
-.cv-dados
- p {
+.cv-dados p {
     margin-bottom: 10px;
     padding-left: 2px;
     color: #3C3C3C;
@@ -28,8 +22,7 @@
 
 #cargo {
     padding-left: 4px;
-    padding-bottom: 20px;
-    
+    padding-bottom: 20px;    
 }
 
 .p-educacao, .p-experiencias {
@@ -43,15 +36,7 @@
 }
 
 .cv-dados h2 {
-    font-family: Montserrat;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 39px;
-    letter-spacing: 0.06em;
-    text-align: left;
-    margin-top: 48px;
-    margin-left: 68px;
+    margin-top: 48px;    
     margin-bottom: 25px;
     color: #6CD0DB;
 }
@@ -61,7 +46,6 @@
     justify-content: space-between;
     width: 280px;
     height: 22px;    
-    margin-left: 68px;
     margin-bottom: 10px;
 }
 
@@ -87,82 +71,10 @@
     background-color: #6CD0DB;    
 }
 
-@media (max-width: 820px) and (min-width: 580px) {
-    :root {
-        --responsivo: 34px;
-    }
-
-    .cv-dados
-     {
-        height: 1100px;
-    }
-
-    .cv-dados
-     h1 {
-        
-        margin-left: var(--responsivo);
-        margin-top: var(--responsivo);
-    }
-
-    .cv-dados
-     h2 {       
-        margin-left: var(--responsivo);
-    }
-
-    .cv-dados
-     p {
-        margin-left: var(--responsivo);
-    }
-
-    .habilidades {
-        margin-left: var(--responsivo);
-    }
-
-    .habilidades p {
-        margin-left: 0px;
-    }    
-}
-
-@media (max-width: 580px) {
-    :root {
-        --responsivo: 20px;
-    }  
-
+@media screen and (max-width: 768px) {  
     .cv-dados {
-        width: auto;
-        height: auto; 
-        padding-bottom: var(--responsivo);       
+      width: 100%;
+      height: 100%;
+      padding-bottom: 3rem;
     }
-
-    .cv-dados
-     h1 {
-        font-size: 50px;
-        margin-left: var(--responsivo);
-        margin-top: var(--responsivo);
-    }
-
-    #cargo {
-        padding-bottom: 10px;
-    }
-
-    .cv-dados
-     h2 {
-        font-size: 29px;
-        margin-top: var(--responsivo);
-        margin-left: var(--responsivo);
-    }
-
-    .cv-dados
-     p {
-        margin-left: var(--responsivo);
-    }
-
-    .habilidades {
-        margin-left: var(--responsivo);
-    }
-
-    .habilidades p {
-        margin-left: 0px;
-    }
-
 }
