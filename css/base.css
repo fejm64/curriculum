@@ -1,11 +1,15 @@
 body {
     background: #E5E5E5;
 }
-.cv-wrapper {
+.cv {
     max-width: 816px;
     height: auto;   
     display: flex;
     margin: 0 auto;
+}
+
+.titulo, .subtitulo {
+  text-transform: uppercase;
 }
 
 p {      
@@ -20,7 +24,7 @@ p {
 }
 
 @media (max-width: 580px) {
-  .cv-wrapper {
+  .cv {
     width: auto;         
     flex-direction: column;
     flex-direction: column-reverse;

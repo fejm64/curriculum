@@ -13,8 +13,7 @@ img {
     margin-bottom: 64px;     
 }
 
-.cv-contato
-  h2 {       
+.cv-contato h2 {       
     font-family: 'Montserrat', serif;
     font-size: 32px;
     font-style: normal;
@@ -28,8 +27,7 @@ img {
     padding-top: 14.5px;     
 }
 
-.cv-contato
-  h3 {
+.cv-contato h3 {
     font-family: Montserrat;
     font-size: 16px;
     font-style: normal;
@@ -40,8 +38,8 @@ img {
     margin-left:68px;
     margin-bottom: 10px;
     width: 68px;
-    height: 20px;        
-    text-transform: uppercase;
+    height: 20px;    
+    
 }
 
 .cv-contato
