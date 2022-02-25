@@ -1,7 +1,7 @@
 body {
     background: #E5E5E5;
 }
-.cv {
+.cv-wrapper {
     max-width: 816px;
     height: auto;   
     display: flex;
@@ -20,7 +20,7 @@ p {
 }
 
 @media (max-width: 580px) {
-  .cv {
+  .cv-wrapper {
     width: auto;         
     flex-direction: column;
     flex-direction: column-reverse;
