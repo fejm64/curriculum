@@ -41,17 +41,33 @@
     color: #6CD0DB;
 }
 
-.habilidades {
-    display: flex;
-    justify-content: space-between;
-    width: 280px;
-    height: 22px;    
-    margin-bottom: 10px;
+/* habilidades */
+
+.lista-habilidades {
+    width: 260px;
+}
+
+.lista-habilidade--item {
+    display: flex;    
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+.titulo-habilidade {
+    font-family: 'Crimson Text', sans-serif;
+	font-size: 16px;
+	line-height: 32px;
+	font-weight: 600;
+	color: #3C3C3C;
+	text-transform: uppercase;
 }
 
 .pontos {
     display: flex;
-    justify-content: space-around;
+	align-items: center;
+	justify-content: center;
 }
 
 .ponto {
