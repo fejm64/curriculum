@@ -17,6 +17,7 @@
 .cv-dados p {
     margin-bottom: 10px;
     padding-left: 2px;
+    line-height: 32px;
     color: #3C3C3C;
 }
 
@@ -27,11 +28,6 @@
 
 .p-educacao, .p-experiencias {
     font-weight: normal;
-    line-height: 32px;
-}
-
-.habilidades p {
-    margin-left: 0px;
     line-height: 32px;
 }
 
