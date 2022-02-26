@@ -73,13 +73,10 @@
     width: 10px;
     height: 10px;
     border-radius: 50%;
+    background-color: #3C3C3C
 }
 
-.preto {
-    background-color: #3C3C3C;
-}
-
-.azul {    
+.ativo {    
     background-color: #6CD0DB;    
 }
 
