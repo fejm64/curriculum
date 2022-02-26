@@ -9,7 +9,7 @@ body {
     margin: 0 auto;
 }
 
-.cv-contato > *, .cv-dados > * {
+.cv-contato > *, .cv-conteudo > * {
   margin-left: 68px;
 }
 
@@ -48,7 +48,7 @@ p {
     flex-direction: column;
   }
 
-  .cv-contato > *:not(.linha), .cv-dados > *{
+  .cv-contato > *:not(.linha), .cv-conteudo > *{
     margin-left: 40px;
   }
 

@@ -1,10 +1,10 @@
-.cv-dados {    
+.cv-conteudo {    
     width: 60%;
     height: 1054px;
     background: #FFFFFF;
 }
 
-.cv-dados h1 {    
+.cv-conteudo h1 {    
     font-size: 56px;        
     font-weight: 700;
     line-height: 68px;
@@ -14,7 +14,7 @@
     color: #6CD0DB;
 }
 
-.cv-dados p {
+.cv-conteudo p {
     margin-bottom: 10px;
     padding-left: 2px;
     line-height: 32px;
@@ -31,7 +31,7 @@
     line-height: 32px;
 }
 
-.cv-dados h2 {
+.cv-conteudo h2 {
     margin-top: 48px;    
     margin-bottom: 25px;
     color: #6CD0DB;
@@ -72,7 +72,7 @@
     margin-right: 7px;
     width: 10px;
     height: 10px;
-    border-radius: 50%;    
+    border-radius: 50%;
 }
 
 .preto {
@@ -84,7 +84,7 @@
 }
 
 @media screen and (max-width: 768px) {  
-    .cv-dados {
+    .cv-conteudo {
       width: 100%;
       height: 100%;
       padding-bottom: 3rem;
