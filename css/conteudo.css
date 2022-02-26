@@ -4,26 +4,23 @@
     background: #FFFFFF;
 }
 
-.cv-conteudo h1 {    
+.cv-conteudo-nome {    
     font-size: 56px;        
     font-weight: 700;
     line-height: 68px;
-    letter-spacing: 0em;    
-    padding: 0px 16px 16px 0px;
-    margin-top: 68px;        
+    letter-spacing: 0em;
+    margin-top: 68px;
+    margin-bottom: 2px;        
     color: #6CD0DB;
 }
 
-.cv-conteudo p {
-    margin-bottom: 10px;
-    padding-left: 2px;
-    line-height: 32px;
-    color: #3C3C3C;
+.cv-conteudo-nome + p {    
+    padding-bottom: 20px;    
 }
 
-#cargo {
-    padding-left: 4px;
-    padding-bottom: 20px;    
+.cv-conteudo p {
+    line-height: 32px;
+    color: #3C3C3C;
 }
 
 .p-educacao, .p-experiencias {
@@ -33,11 +30,9 @@
 
 .cv-conteudo h2 {
     margin-top: 48px;    
-    margin-bottom: 25px;
+    margin-bottom: 17px;
     color: #6CD0DB;
 }
-
-/* habilidades */
 
 .lista-habilidades {
     width: 260px;
@@ -46,8 +41,7 @@
 .lista-habilidade--item {
     display: flex;    
 	align-items: center;
-	justify-content: space-between;
-	margin-bottom: 10px;
+	justify-content: space-between;	
 	width: 100%;
 }
 
