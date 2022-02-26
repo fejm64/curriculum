@@ -61,15 +61,12 @@
 }
 
 .pontos {
-    display: flex;
-	align-items: center;
-	justify-content: center;
+    display: flex;    
+	align-items: center;    
 }
 
 .ponto {
-    margin-top: 6px;
-    margin-left: 0px;
-    margin-right: 7px;
+    margin-right: 7px;    
     width: 10px;
     height: 10px;
     border-radius: 50%;
