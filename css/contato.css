@@ -45,7 +45,7 @@
     background: #6CD0DB;
 }
 
-@media screen and (max-width: 768px) { 
+@media (max-width: 768px) { 
     .cv-contato {
       width: 100%;
       height: 100%;
