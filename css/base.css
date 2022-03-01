@@ -23,7 +23,7 @@ cv-contato article {
 }
 
 h1, h2, h3 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: Montserrat, sans-serif;
 }
 
 h2 {       
@@ -35,7 +35,7 @@ h2 {
 }
 
 p {      
-    font-family: 'Crimson Text';
+    font-family: 'Crimson Text', sans-serif;
     font-size: 16px;      
     font-weight: 600;    
     line-height: 22px;
