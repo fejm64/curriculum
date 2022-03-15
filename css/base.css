@@ -3,8 +3,9 @@ body {
 }
 
 .cv {
-    width: 100%;
+    width: 100%;    
     max-width: 816px;
+    max-height: 1024px;
     display: flex;
     margin: 0 auto;
 }
@@ -36,10 +37,10 @@ h2 {
 
 p {      
     font-family: 'Crimson Text', sans-serif;
+    font-style: normal;
     font-size: 16px;      
     font-weight: 600;    
     line-height: 22px;
-    letter-spacing: 0em;     
 }
 
 a {

@@ -1,6 +1,5 @@
 .cv-conteudo {    
     width: 60%;
-    height: 1054px;
     background: #FFFFFF;
 }
 
@@ -10,7 +9,7 @@
     line-height: 68px;
     letter-spacing: 0em;
     margin-top: 68px;
-    margin-bottom: 2px;        
+    padding-bottom: 20px;        
     color: #6CD0DB;
 }
 
@@ -21,6 +20,10 @@
 .cv-conteudo p {
     line-height: 32px;
     color: #3C3C3C;
+}
+
+.cv-conteudo-info {
+    margin-right: 148px;
 }
 
 .p-educacao, .p-experiencias {
