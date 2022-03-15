@@ -81,4 +81,9 @@
       height: 100%;
       padding-bottom: 3rem;
     }
+
+    .cv-conteudo-info {
+        margin-right: 0px;
+        padding-bottom: 100px;
+    }
 }
