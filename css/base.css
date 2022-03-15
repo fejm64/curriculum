@@ -1,11 +1,6 @@
-body {
-    background: #E5E5E5;
-}
-
 .cv {
     width: 100%;    
     max-width: 816px;
-    max-height: 1024px;
     display: flex;
     margin: 0 auto;
 }
