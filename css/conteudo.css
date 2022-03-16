@@ -27,29 +27,29 @@
     padding-bottom: 178px;
 }
 
-.p-educacao, .p-experiencias {
+.cv-conteudo-educacao, .cv-conteudo-experiencias {
     font-weight: normal;
     line-height: 32px;
 }
 
-.cv-conteudo h2 {
+.cv-conteudo-titulo {
     margin-top: 48px;    
     margin-bottom: 17px;
     color: #6CD0DB;
 }
 
-.lista-habilidades {
+.cv-conteudo-habilidades {
     width: 260px;
 }
 
-.lista-habilidade--item {
+.cv-conteudo-habilidades-item {
     display: flex;    
 	align-items: center;
 	justify-content: space-between;	
 	width: 100%;
 }
 
-.titulo-habilidade {
+.cv-conteudo-habilidades-titulo {
     font-family: 'Crimson Text', sans-serif;
 	font-size: 16px;
 	line-height: 32px;
@@ -84,6 +84,6 @@
 
     .cv-conteudo-info {
         margin-right: 0px;
-        padding-bottom: 100px;
+        padding-bottom: 100titulopx;
     }
 }

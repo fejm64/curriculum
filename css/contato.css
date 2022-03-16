@@ -11,14 +11,14 @@
     margin-bottom: 64px;     
 }
 
-.cv-contato h2 {       
+.cv-contato-titulo {       
     color: #FFFFFF;      
     width: 204px;
     height: 68px;
     padding-top: 14.5px;   
 }
 
-.cv-contato h3 {      
+.cv-contato-subtitulo {      
     font-weight: 500;
     line-height: 20px;
     letter-spacing: 0em;
